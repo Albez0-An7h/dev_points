@@ -18,40 +18,40 @@ function add() {
 
 }
 
-// let arr = []
-// function add() {
-//     const NameField = document.getElementById('name')
-//     const PointsField = document.getElementById('points')
+let arr = []
+function add() {
+    const NameField = document.getElementById('name')
+    const PointsField = document.getElementById('points')
 
-//     let data = {
-//         Id: Date.now(),
-//         Name: NameField.value,
-//         Points: PointsField.value,
-//     }
+    let data = {
+        Id: Date.now(),
+        Name: NameField.value,
+        Points: PointsField.value,
+    }
 
-//     // console.log(data)
+    console.log(data)
 
-//     arr.push(data)
+    // arr.push(data)
 
-//     console.log(arr)
+    console.log(arr)
 
 
 
-//     // displayData()
-// }
+    // displayData()
+}
 
-// function displayData() {
-//     const ele = document.getElementById('disdata');
-//     const newDiv = document.createElement('div.Participant');
-//     newDiv.innerHTML =
-//         `
-//             <h2>
-//                 ${arr[i].data[1]}
-//             </h2>
-//             <h2>
-//                 ${arr[i].data[1]}
-//             </h2>
-//             `;
-//     ele.appendChild(newDiv);
-//     console.log(`${arr[i].data[1]}`)
-// }
+function displayData() {
+    const ele = document.getElementById('disdata');
+    const newDiv = document.createElement('div.Participant');
+    newDiv.innerHTML =
+        `
+            <h2>
+                ${arr[i].data[1]}
+            </h2>
+            <h2>
+                ${arr[i].data[1]}
+            </h2>
+            `;
+    ele.appendChild(newDiv);
+    console.log(`${arr[i].data[1]}`)
+}
