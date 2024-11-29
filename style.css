@@ -89,6 +89,8 @@ footer{
     padding: 10px;
     background-color: #4F45E4;
     color: white;
+    top: 0;
+    position: sticky;
 }
 .Participant{
     background-color: hsl(0, 0%, 93%);
