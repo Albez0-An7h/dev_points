@@ -89,7 +89,7 @@ footer{
     padding: 10px;
     background-color: #4F45E4;
     color: white;
-    top: 0;
+    bottom: 0;
     position: sticky;
 }
 .Participant{
