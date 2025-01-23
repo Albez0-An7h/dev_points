@@ -1,20 +1,3 @@
-// function add() {
-
-//     const NameField = document.getElementById('name')
-//     const PointsField = document.getElementById('points')
-//     const bodySection = document.querySelectorAll("tbody")[0];
-//     const row = bodySection.insertRow(0)
-//     naam = NameField.value;
-//     paise = PointsField.value;
-//     const newCell = row.insertCell();
-//     newCell.textContent = `${naam}`;
-//     const newCell2 = row.insertCell();
-//     newCell2.textContent = `${paise}`
-//     i++;
-//     console.log(i)
-
-// }
-
 let arr = []
 function add() {
     const NameField = document.getElementById('name')
